@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  dya6 movie demo
+
+  Created by MacBook on 07/05/2025.
+  
+*/
+
+"addMovieNavTitle" = "Add New Movie";
+"doneBarBtn" = "Done";
+"uploadImgAlertTitle" = "Pick a Photo";
+"uploadImgAlertMsg" = "Choose a picture from gallery or take a new one";
+"camera" = "Camera";
+"gallery" = "Gallery";
+"cancel" = "Cancel";

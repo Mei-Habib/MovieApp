@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FA3592312DC781EF0087BE4A /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = FA3592302DC781EF0087BE4A /* Reachability */; };
+		FA8E3E712DC609A600B18C0C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FA8E3E702DC609A600B18C0C /* Kingfisher */; };
+		FA8E3ED42DC62E6000B18C0C /* ShimmerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FA8E3ED32DC62E6000B18C0C /* ShimmerSwift */; };
+		FA8E3ED72DC633E000B18C0C /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = FA8E3ED62DC633E000B18C0C /* Cosmos */; };
+		FABDCEA32DC76B4A00683D1B /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDCEA12DC76B4A00683D1B /* Movie+CoreDataClass.swift */; };
+		FABDCEA42DC76B4A00683D1B /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABDCEA22DC76B4A00683D1B /* Movie+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FA8E3E412DC608C400B18C0C /* dya6 movie demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dya6 movie demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABDCEA12DC76B4A00683D1B /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FABDCEA22DC76B4A00683D1B /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8E3ED72DC633E000B18C0C /* Cosmos in Frameworks */,
+				FA3592312DC781EF0087BE4A /* Reachability in Frameworks */,
+				FA8E3ED42DC62E6000B18C0C /* ShimmerSwift in Frameworks */,
+				FA8E3E712DC609A600B18C0C /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +60,8 @@
 		FA8E3E382DC608C400B18C0C = {
 			isa = PBXGroup;
 			children = (
+				FABDCEA12DC76B4A00683D1B /* Movie+CoreDataClass.swift */,
+				FABDCEA22DC76B4A00683D1B /* Movie+CoreDataProperties.swift */,
 				FA8E3E432DC608C400B18C0C /* dya6 movie demo */,
 				FA8E3E422DC608C400B18C0C /* Products */,
 			);
@@ -78,6 +95,10 @@
 			);
 			name = "dya6 movie demo";
 			packageProductDependencies = (
+				FA8E3E702DC609A600B18C0C /* Kingfisher */,
+				FA8E3ED32DC62E6000B18C0C /* ShimmerSwift */,
+				FA8E3ED62DC633E000B18C0C /* Cosmos */,
+				FA3592302DC781EF0087BE4A /* Reachability */,
 			);
 			productName = "dya6 movie demo";
 			productReference = FA8E3E412DC608C400B18C0C /* dya6 movie demo.app */;
@@ -104,9 +125,16 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = FA8E3E382DC608C400B18C0C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FA8E3E6F2DC609A600B18C0C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				FA8E3ED22DC62E6000B18C0C /* XCRemoteSwiftPackageReference "ShimmerSwift" */,
+				FA8E3ED52DC633E000B18C0C /* XCRemoteSwiftPackageReference "Cosmos" */,
+				FA35922F2DC781EF0087BE4A /* XCRemoteSwiftPackageReference "Reachability.swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA8E3E422DC608C400B18C0C /* Products */;
 			projectDirPath = "";
@@ -132,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABDCEA32DC76B4A00683D1B /* Movie+CoreDataClass.swift in Sources */,
+				FABDCEA42DC76B4A00683D1B /* Movie+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +227,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -260,6 +291,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -333,6 +365,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA35922F2DC781EF0087BE4A /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FA8E3E6F2DC609A600B18C0C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+		FA8E3ED22DC62E6000B18C0C /* XCRemoteSwiftPackageReference "ShimmerSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BeauNouvelle/ShimmerSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+		FA8E3ED52DC633E000B18C0C /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 25.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA3592302DC781EF0087BE4A /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA35922F2DC781EF0087BE4A /* XCRemoteSwiftPackageReference "Reachability.swift" */;
+			productName = Reachability;
+		};
+		FA8E3E702DC609A600B18C0C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA8E3E6F2DC609A600B18C0C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		FA8E3ED32DC62E6000B18C0C /* ShimmerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA8E3ED22DC62E6000B18C0C /* XCRemoteSwiftPackageReference "ShimmerSwift" */;
+			productName = ShimmerSwift;
+		};
+		FA8E3ED62DC633E000B18C0C /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA8E3ED52DC633E000B18C0C /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA8E3E392DC608C400B18C0C /* Project object */;
 }

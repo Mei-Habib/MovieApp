@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "Spider-Man: No Way Home"; ObjectID = "5bd-md-2ud"; */
+"5bd-md-2ud.text" = "Spider-Man: No Way Home";
+
+/* Class = "UILabel"; text = "Spider-Man: No Way Home"; ObjectID = "IPp-3U-q2c"; */
+"IPp-3U-q2c.text" = "Spider-Man: No Way Home";
+
+/* Class = "UILabel"; text = "Rating:"; ObjectID = "Lxl-Fu-TKx"; */
+"Lxl-Fu-TKx.text" = "التقييم:";
+
+/* Class = "UIButton"; configuration.title = "2021"; ObjectID = "Q2R-5a-xtM"; */
+"Q2R-5a-xtM.configuration.title" = "2021";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Q2R-5a-xtM"; */
+"Q2R-5a-xtM.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Title:"; ObjectID = "Qa5-No-7i8"; */
+"Qa5-No-7i8.text" = "العنوان:";
+
+/* Class = "UILabel"; text = "Genre:"; ObjectID = "RHN-Oa-82i"; */
+"RHN-Oa-82i.text" = "النوع:";
+
+/* Class = "UILabel"; text = "Action, Adventure, Fantasy"; ObjectID = "W65-Np-QOz"; */
+"W65-Np-QOz.text" = "Action, Adventure, Fantasy";
+
+/* Class = "UILabel"; text = "Release Year:"; ObjectID = "Yy6-PR-eow"; */
+"Yy6-PR-eow.text" = "سنة الاصدار:";
+
+/* Class = "UIButton"; configuration.title = "148 min"; ObjectID = "kpu-Ga-NTg"; */
+"kpu-Ga-NTg.configuration.title" = "148 min";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "kpu-Ga-NTg"; */
+"kpu-Ga-NTg.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Upload an Image"; ObjectID = "oWn-uM-Heq"; */
+"oWn-uM-Heq.configuration.title" = "تحميل صورة";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "oWn-uM-Heq"; */
+"oWn-uM-Heq.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Action, Adventure, Fantasy"; ObjectID = "yPA-xD-q7e"; */
+"yPA-xD-q7e.text" = "Action, Adventure, Fantasy";
