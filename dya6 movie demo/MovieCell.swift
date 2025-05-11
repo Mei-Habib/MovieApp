@@ -12,7 +12,7 @@ class MovieCell: UICollectionViewCell {
     @IBOutlet weak var movieImg: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+
     }
 
 }
